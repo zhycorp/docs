@@ -1,12 +1,12 @@
 module.exports = {
-  sidebar: [
-    {
+  	sidebar: [
+		{
 			type: 'category',
 			label: 'General',
 			items: ['general/welcome'],
 			collapsed: false
 		},
-    {
+		{
 			type: 'category',
 			label: 'Documentation',
 			collapsed: true,
@@ -17,5 +17,5 @@ module.exports = {
 				}
 			]
 		}
-  ]
+	]
 }
