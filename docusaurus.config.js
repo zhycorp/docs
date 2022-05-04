@@ -22,10 +22,10 @@ const config = {
 				],
 				tsconfig: './tsconfig.typedoc.json',
 				readme: 'none',
-				out: 'documentation/plugins',
+				out: 'documentation/sapphire-plugins',
 				plugin: ['typedoc-plugin-mdn-links', 'typedoc-plugin-djs-links'],
 				sidebar: {
-					categoryLabel: 'Zhycorp Sapphire Plugins',
+					categoryLabel: 'Sapphire Plugins',
 					position: 2
 				}
 			}
@@ -58,11 +58,17 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
+						to: '/',
+						label: 'Home',
+						position: 'left',
+						activeBaseRegex: '^/$'
+					},
+					{
+						to: 'docs/General/Welcome',
+						position: 'left',
+						label: 'Documentation',
+						activeBaseRegex: '^/docs/(General|Documentation)/.+$'
+					},
           {
             href: 'https://github.com/zhycorp/docs',
             label: 'GitHub',
@@ -74,11 +80,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Guides',
+            title: 'Docs',
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs/general/welcome',
               },
             ],
           },

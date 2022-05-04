@@ -102,3 +102,4 @@ dist
 # Docusaurus
 .docusaurus
 build
+docs/documentation
