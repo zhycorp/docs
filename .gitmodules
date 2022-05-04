@@ -1,4 +1,3 @@
 [submodule "projects/sapphire-plugins"]
 	path = projects/sapphire-plugins
-	url = https://github.com/zhycorp/sapphire-plugins
-	branch = main
+	url = https://github.com/zhycorp/sapphire-plugins.git
