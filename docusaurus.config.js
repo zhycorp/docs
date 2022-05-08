@@ -18,7 +18,8 @@ const config = {
 				id: 'Sapphire-Plugins',
 				entryPointStrategy: 'resolve',
 				entryPoints: [
-					'./projects/sapphire-plugins/packages/command-context/src/index.ts'
+          './projects/sapphire-plugins/packages/command-context/src/index.ts',
+          './projects/sapphire-plugins/packages/pino-logger/src/index.ts'
 				],
 				tsconfig: './tsconfig.typedoc.json',
 				readme: 'none',
