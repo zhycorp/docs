@@ -3,13 +3,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Zhycorp Docs',
-  url: 'https://docs.zhycorp.org',
+  title: 'FrutBits Docs',
+  url: 'https://docs.frutbits.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-  organizationName: 'zhycorp',
+  organizationName: 'frutbits',
   projectName: 'documentation',
   plugins: [
     [
@@ -39,7 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/zhycorp/docs/tree/main/',
+          editUrl: 'https://github.com/frutbits/docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,9 +52,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Zhycorp',
+        title: 'FrutBits',
         logo: {
-          alt: 'Zhycorp Logo',
+          alt: 'FrutBits Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -71,7 +71,7 @@ const config = {
 						activeBaseRegex: '^/docs/(General|Documentation)/.+$'
 					},
           {
-            href: 'https://github.com/zhycorp/docs',
+            href: 'https://github.com/frutbits/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://zhycorp.org/discord',
+                href: 'https://frutbits.org/discord',
               }
             ],
           },
@@ -103,12 +103,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/zhycorp',
+                href: 'https://github.com/frutbits',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Zhycorp Organization`,
+        copyright: `Copyright © ${new Date().getFullYear()} FrutBits Organization`,
       },
       prism: {
         theme: lightCodeTheme,

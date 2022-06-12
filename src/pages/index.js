@@ -29,7 +29,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="Zhycorp Documentation">
+      description="FrutBits Documentation">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
