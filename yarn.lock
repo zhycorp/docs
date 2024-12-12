@@ -1519,7 +1519,7 @@
     "@docusaurus/theme-common" "2.0.0-beta.21"
     "@docusaurus/theme-search-algolia" "2.0.0-beta.21"
 
-"@docusaurus/react-loadable@5.5.2", "react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+"@docusaurus/react-loadable@5.5.2":
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
   integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
@@ -1695,10 +1695,10 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@hazmi35/eslint-config@^8.4.2":
-  version "8.7.1"
-  resolved "https://registry.yarnpkg.com/@hazmi35/eslint-config/-/eslint-config-8.7.1.tgz#1ea055003af79291993a7d9ad54529e51be07da1"
-  integrity sha512-J5RxP4DhtTXn2GeABYyN0hG/TFCklue7CvSM1U8mMwlc6Zr1FNajjdFUY+DYjwzEfaaIzWMECzURDRsaRJL4/w==
+"@hazmi35/eslint-config@^14.0.1":
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/@hazmi35/eslint-config/-/eslint-config-14.0.1.tgz#bdf5a134d466fa8c1bc22f3f1f41ddcf6b990923"
+  integrity sha512-XnaUYsA1Wp85aHfl7mEvGWe2xFKb9SkcL4YOO2xfn8o79E8V6q8WndKNhqQC3BV2vvTbK9OTu87yYY7ZKubjww==
 
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"
@@ -6612,6 +6612,14 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   integrity sha512-lq3Lyw1lGku8zUEJPDxsNm1AfYHBrO9Y1+olAYwpUJ2IGFBskM0DMKok97A6LWUpHm+o7IvQBOWu9MLenp9Z+A==
   dependencies:
     "@babel/runtime" "^7.10.3"
+
+"react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
+  integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
+  dependencies:
+    "@types/react" "*"
+    prop-types "^15.6.2"
 
 react-router-config@^5.1.1:
   version "5.1.1"
